@@ -65,7 +65,6 @@ export default function Footer() {
             <ul className="space-y-4">
               {[
                 { name: "Civil Law", href: "/services/civil-law" },
-                { name: "Criminal Law", href: "/services/criminal-law" },
                 { name: "Taxation Law", href: "/services/taxation-law" },
                 { name: "Corporate Law", href: "/services/corporate-law" },
                 { name: "Family Law", href: "/services/family-law" },
@@ -96,14 +95,7 @@ export default function Footer() {
                 <Mail className="h-5 w-5 text-secondary mt-1" />
                 <span className="text-white/70">[Your Email]</span>
               </li>
-              <li className="flex items-start gap-3">
-                <MapPin className="h-5 w-5 text-secondary mt-1" />
-                <span className="text-white/70">[Your Office Address]</span>
-              </li>
             </ul>
-            <Button className="mt-6 bg-secondary text-primary hover:bg-secondary/90 rounded-full" asChild>
-              <Link href="/contact">Get Directions</Link>
-            </Button>
           </div>
         </div>
 
