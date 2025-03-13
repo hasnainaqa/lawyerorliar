@@ -36,20 +36,6 @@ export default function AboutCta() {
             </Button>
           </div>
 
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/10">
-              <h3 className="text-xl font-bold mb-2">Visit Our Office</h3>
-              <p className="text-white/70">[Your Office Address]</p>
-            </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/10">
-              <h3 className="text-xl font-bold mb-2">Call Us</h3>
-              <p className="text-white/70">+[Your Contact Number]</p>
-            </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/10">
-              <h3 className="text-xl font-bold mb-2">Email Us</h3>
-              <p className="text-white/70">[Your Email]</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
