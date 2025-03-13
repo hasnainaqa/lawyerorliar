@@ -29,7 +29,8 @@ export const metadata = {
       "Need a Lawyer? Expert Legal Help Available Now. Providing expert legal solutions in civil, criminal, taxation, and corporate law.",
     type: "website",
   },
-    generator: 'v0.dev'
+  icon: "/favicon.svg",
+
 }
 
 export default function RootLayout({
