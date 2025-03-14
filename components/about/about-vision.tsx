@@ -135,6 +135,10 @@ export default function AboutVision() {
                 title: "Legal Education",
                 description: "LAT/GAT, Civil Judge, ASI coaching and exam preparation.",
               },
+              {
+                title: "Real Estate & Property Law",
+                description: "Sale & Purchase, Registration of property .",
+              },
             ].map((area, index) => (
               <Card
                 key={index}

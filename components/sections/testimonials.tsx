@@ -3,19 +3,19 @@ import { Card, CardContent } from "@/components/ui/card"
 const testimonials = [
   {
     quote: "Professional and highly experienced. Helped me win my case!",
-    author: "Client Name",
+    author: "Hasnain Afzal",
     position: "Business Owner",
     image: "/placeholder.svg?height=100&width=100",
   },
   {
     quote: "Trusted legal support with great results. I couldn't be happier with the outcome.",
-    author: "Client Name",
+    author: "Zain Rasool",
     position: "Corporate Client",
     image: "/placeholder.svg?height=100&width=100",
   },
   {
     quote: "Highly recommend for business legal services. Their expertise is unmatched.",
-    author: "Client Name",
+    author: "Jibran Virk",
     position: "Entrepreneur",
     image: "/placeholder.svg?height=100&width=100",
   },
@@ -51,13 +51,6 @@ export default function Testimonials() {
                 <div className="relative z-10">
                   <p className="mb-8 italic text-lg">{testimonial.quote}</p>
                   <div className="flex items-center">
-                    <div className="mr-4 h-12 w-12 overflow-hidden rounded-full border-2 border-secondary">
-                      <img
-                        src={testimonial.image || "/placeholder.svg"}
-                        alt={testimonial.author}
-                        className="h-full w-full object-cover"
-                      />
-                    </div>
                     <div>
                       <p className="font-bold text-primary-800">{testimonial.author}</p>
                       <p className="text-sm text-muted-foreground">{testimonial.position}</p>

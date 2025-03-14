@@ -22,7 +22,7 @@ export default function ContactForm() {
   }
 
   const generateMailtoLink = () => {
-    const recipient = "israrahmadvirk42@gmail.com"
+    const recipient = "lawyerorlair@gmail.com"
     const subject = encodeURIComponent(formData.subject || "Legal Consultation Request")
 
     const body = encodeURIComponent(
@@ -53,7 +53,7 @@ export default function ContactForm() {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              placeholder="John Doe"
+              placeholder="Your Name"
               required
               className="w-full"
             />
@@ -68,7 +68,7 @@ export default function ContactForm() {
               type="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="john@example.com"
+              placeholder="user@example.com"
               required
               className="w-full"
             />

@@ -28,12 +28,14 @@ export default function AboutCta() {
             expertise and dedication.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link href="/contact">
             <Button
               size="lg"
               className="rounded-full gap-1 px-8 bg-secondary text-primary hover:bg-secondary/90 shadow-lg shadow-secondary/20 transition-all duration-300 hover:translate-y-[-2px]"
             >
               Schedule a Consultation <ArrowRight className="h-4 w-4 ml-1" />
             </Button>
+            </Link>
           </div>
 
         </div>

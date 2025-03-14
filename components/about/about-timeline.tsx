@@ -28,7 +28,7 @@ export default function AboutTimeline() {
           <div className="space-y-16">
             {[
               {
-                year: "2000",
+                year: "2010",
                 title: "Firm Founded",
                 description:
                   "Israr Ahmad established the firm with a vision to provide accessible and high-quality legal services.",
@@ -36,7 +36,7 @@ export default function AboutTimeline() {
                   "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
               },
               {
-                year: "2005",
+                year: "2015",
                 title: "Expansion of Practice Areas",
                 description:
                   "The firm expanded its services to include corporate law, taxation, and family law, growing to a team of 10 legal professionals.",
@@ -44,7 +44,7 @@ export default function AboutTimeline() {
                   "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
               },
               {
-                year: "2010",
+                year: "2020",
                 title: "New Office Headquarters",
                 description:
                   "Moved to our current headquarters, a state-of-the-art facility designed to better serve our growing client base.",
@@ -52,20 +52,12 @@ export default function AboutTimeline() {
                   "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
               },
               {
-                year: "2015",
+                year: "2025",
                 title: "Digital Transformation",
                 description:
                   "Implemented advanced legal technology solutions to enhance client service and case management efficiency.",
                 image:
                   "https://images.unsplash.com/photo-1581092921461-39b9d08ed889?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-              },
-              {
-                year: "2020",
-                title: "International Partnerships",
-                description:
-                  "Established strategic partnerships with international law firms to better serve clients with global legal needs.",
-                image:
-                  "https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
               },
               {
                 year: "Present",

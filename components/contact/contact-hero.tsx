@@ -1,14 +1,17 @@
-import { Mail, ArrowRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
+import { Mail, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 interface ContactHeroProps {
-  id?: string
+  id?: string;
 }
 
 export default function ContactHero({ id }: ContactHeroProps) {
   return (
-    <section id={id} className="relative bg-primary-900 text-white pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden">
+    <section
+      id={id}
+      className="relative bg-primary-900 text-white pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden"
+    >
       {/* Modern background with overlay */}
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1575505586569-646b2ca898fc?q=80&w=2070')] bg-cover bg-center opacity-15"></div>
       <div className="absolute inset-0 bg-gradient-to-r from-primary-900/95 via-primary-800/90 to-primary-900/95"></div>
@@ -28,7 +31,9 @@ export default function ContactHero({ id }: ContactHeroProps) {
       <div className="container relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <div className="inline-block rounded-full bg-secondary/20 px-4 py-1.5 text-sm text-secondary border border-secondary/30 backdrop-blur-sm mb-6 animate-fade-up">
-            <span className="drop-shadow-sm">Get in Touch with Our Legal Experts</span>
+            <span className="drop-shadow-sm">
+              Get in Touch with Our Legal Experts
+            </span>
           </div>
 
           <h1
@@ -37,22 +42,31 @@ export default function ContactHero({ id }: ContactHeroProps) {
           >
             Contact{" "}
             <span className="text-secondary relative">
-              Us<span className="absolute -bottom-2 left-0 w-full h-1 bg-secondary/70 rounded-full"></span>
+              Us
+              <span className="absolute -bottom-2 left-0 w-full h-1 bg-secondary/70 rounded-full"></span>
             </span>
           </h1>
 
           <p className="text-lg text-white/80 mb-10 max-w-2xl mx-auto animate-fade-up animation-delay-200 leading-relaxed">
-            We are here to provide you with professional legal guidance. Whether you need assistance with civil,
-            criminal, taxation, corporate, or family law, our expert team is ready to help.
+            We are here to provide you with professional legal guidance. Whether
+            you need assistance with civil, criminal, taxation, corporate, or
+            family law, our expert team is ready to help.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up animation-delay-400">
-            <Button
-              size="lg"
-              className="rounded-full gap-1 px-8 bg-secondary text-primary hover:bg-secondary/90 shadow-lg shadow-secondary/20 transition-all duration-300 hover:translate-y-[-2px]"
+            <a
+              href="https://wa.me/923017700780"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Schedule Consultation <ArrowRight className="h-4 w-4 ml-1" />
-            </Button>
+              <Button
+                size="lg"
+                className="rounded-full gap-1 px-8 bg-secondary text-primary hover:bg-secondary/90 shadow-lg shadow-secondary/20 transition-all duration-300 hover:translate-y-[-2px] flex items-center"
+              >
+                Schedule Consultation <ArrowRight className="h-4 w-4 ml-1" />
+              </Button>
+            </a>
+
             <Button
               size="lg"
               variant="outline"
@@ -67,8 +81,17 @@ export default function ContactHero({ id }: ContactHeroProps) {
 
       {/* Modern scroll indicator */}
       <div className="hidden md:flex justify-center mt-16 animate-bounce absolute bottom-8 left-0 right-0">
-        <Link href="#contact-info" className="text-white/50 hover:text-white transition-colors">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <Link
+          href="#contact-info"
+          className="text-white/50 hover:text-white transition-colors"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <path
               d="M12 5L12 19M12 19L19 12M12 19L5 12"
               stroke="currentColor"
@@ -81,6 +104,5 @@ export default function ContactHero({ id }: ContactHeroProps) {
         </Link>
       </div>
     </section>
-  )
+  );
 }
-

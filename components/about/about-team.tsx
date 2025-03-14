@@ -16,40 +16,22 @@ const teamMembers = [
     },
   },
   {
-    name: "Sarah Johnson",
+    name: "Usman Ahmad",
     position: "Senior Criminal Law Specialist",
     bio: "Sarah brings 15 years of expertise in criminal defense, having successfully handled numerous high-profile cases and specializing in white-collar crime defense.",
     specialization: "Criminal Law & Appeals",
-    social: {
-      linkedin: "#",
-      twitter: "#",
-      facebook: "#",
-      email: "mailto:contact@example.com",
-    },
   },
   {
-    name: "Michael Chen",
+    name: "Abbas Bhatti",
     position: "Taxation Law Expert",
     bio: "Michael specializes in complex taxation matters, corporate tax planning, and representing clients in tax disputes with revenue authorities.",
     specialization: "Taxation & Corporate Law",
-    social: {
-      linkedin: "#",
-      twitter: "#",
-      facebook: "#",
-      email: "mailto:contact@example.com",
-    },
   },
   {
-    name: "Amina Patel",
+    name: "Huma Akbar",
     position: "Family Law Advocate",
      bio: "Amina has dedicated her career to family law, handling divorce, child custody, and domestic violence cases with compassion and strong advocacy.",
     specialization: "Family & Matrimonial Law",
-    social: {
-      linkedin: "#",
-      twitter: "#",
-      facebook: "#",
-      email: "mailto:contact@example.com",
-    },
   },
 ]
 

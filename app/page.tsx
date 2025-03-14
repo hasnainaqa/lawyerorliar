@@ -4,6 +4,7 @@ import WhyChooseUs from "@/components/sections/why-choose-us"
 import Testimonials from "@/components/sections/testimonials"
 import Consultation from "@/components/sections/consultation"
 import Process from "@/components/sections/process"
+import Resources from "@/components/sections/resources"
 import Faq from "@/components/sections/faq"
 import Cta from "@/components/sections/cta"
 
@@ -14,9 +15,10 @@ export default function Home() {
         <Hero />
         <WhyChooseUs />
         <Expertise />
+        <Process />
         <Testimonials />
         <Consultation />
-        <Process />
+        <Resources />
         <Faq />
         <Cta />
       </main>

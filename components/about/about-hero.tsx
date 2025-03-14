@@ -30,7 +30,7 @@ export default function AboutHero() {
           >
             About{" "}
             <span className="text-secondary relative">
-              Our Firm
+              Us
               <span className="absolute -bottom-2 left-0 w-full h-1 bg-secondary/70 rounded-full"></span>
             </span>
           </h1>

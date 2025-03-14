@@ -10,11 +10,12 @@ import {
   Twitter,
   Linkedin,
   Instagram,
-} from "lucide-react"
-import Link from "next/link"
+} from "lucide-react";
+import Link from "next/link";
+import { FaWhatsapp } from "react-icons/fa";
 
 interface ContactInfoProps {
-  id?: string
+  id?: string;
 }
 
 export default function ContactInfo({ id }: ContactInfoProps) {
@@ -25,25 +26,13 @@ export default function ContactInfo({ id }: ContactInfoProps) {
           {/* Contact Information */}
           <div className="space-y-10">
             <div>
-              <h2 className="text-3xl font-bold font-serif text-primary-800 mb-6">Get in Touch</h2>
+              <h2 className="text-3xl font-bold font-serif text-primary-800 mb-6">
+                Get in Touch
+              </h2>
               <p className="text-muted-foreground mb-8 max-w-md">
-                We are here to provide you with professional legal guidance. Reach out to us through any of the
-                following channels.
+                We are here to provide you with professional legal guidance.
+                Reach out to us through any of the following channels.
               </p>
-            </div>
-
-            {/* Office Location */}
-            <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-              <div className="flex items-start gap-4">
-                <div className="rounded-full bg-primary-100 p-3 text-primary">
-                  <MapPin className="h-6 w-6" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-lg text-primary-800 mb-2">Office Location</h3>
-                  <p className="text-muted-foreground mb-1">[Your Office Address]</p>
-                  <p className="text-muted-foreground">Landmark: [Nearby Landmark for Easy Navigation]</p>
-                </div>
-              </div>
             </div>
 
             {/* Office Hours */}
@@ -53,7 +42,9 @@ export default function ContactInfo({ id }: ContactInfoProps) {
                   <Clock className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg text-primary-800 mb-2">Office Hours</h3>
+                  <h3 className="font-semibold text-lg text-primary-800 mb-2">
+                    Office Hours
+                  </h3>
                   <div className="space-y-1 text-muted-foreground">
                     <p className="flex justify-between">
                       <span>Monday – Friday:</span>
@@ -80,34 +71,64 @@ export default function ContactInfo({ id }: ContactInfoProps) {
                 </div>
                 <div className="space-y-4 w-full">
                   <div>
-                    <h3 className="font-semibold text-lg text-primary-800 mb-2">Contact Information</h3>
+                    <h3 className="font-semibold text-lg text-primary-800 mb-2">
+                      Contact Information
+                    </h3>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="flex items-center gap-3">
-                      <Mail className="h-5 w-5 text-secondary" />
-                      <span className="text-muted-foreground">[Your Email]</span>
+                      <a
+                        href="mailto:lawyerorlair@gmail.com"
+                        className="font-semibold text-xl text-white hover:underline flex items-center gap-2"
+                      >
+                        <Mail className="h-5 w-5 text-secondary" />
+                        <span className="text-muted-foreground">
+                          lawyerorlair@gmail.com
+                        </span>
+                      </a>
                     </div>
                     <div className="flex items-center gap-3">
-                      <Phone className="h-5 w-5 text-secondary" />
-                      <span className="text-muted-foreground">+[Your Contact Number]</span>
+                      <a
+                        href="tel:+923017700780"
+                        className="flex items-center gap-2 hover:underline"
+                      >
+                        <Phone className="h-5 w-5 text-secondary" />
+                        <span className="text-muted-foreground">
+                          +923017700780
+                        </span>
+                      </a>
                     </div>
                     <div className="flex items-center gap-3">
-                      <Printer className="h-5 w-5 text-secondary" />
-                      <span className="text-muted-foreground">[Your Fax Number]</span>
+                      <a
+                        href="https://wa.me/923017700780"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 hover:underline"
+                      >
+                        <FaWhatsapp className="h-5 w-5 text-secondary" />
+                        <span className="text-muted-foreground">
+                          +923017700780
+                        </span>
+                      </a>
                     </div>
                     <div className="flex items-center gap-3">
-                      <MessageSquare className="h-5 w-5 text-secondary" />
-                      <span className="text-muted-foreground">[Your WhatsApp Number]</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <Globe className="h-5 w-5 text-secondary" />
-                      <span className="text-muted-foreground">[Your Website URL]</span>
+                      <a
+                        href="https://lawyerorlair.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 hover:underline"
+                      >
+                        <Globe className="h-5 w-5 text-secondary" />
+                        <span className="text-muted-foreground">
+                          lawyerorlair.com
+                        </span>
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>            
+            </div>
           </div>
 
           {/* Why Contact Us */}
@@ -116,7 +137,9 @@ export default function ContactInfo({ id }: ContactInfoProps) {
             <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-gradient-to-tr from-primary-700/50 to-transparent rounded-tr-full blur-3xl opacity-20"></div>
 
             <div className="relative z-10">
-              <h2 className="text-3xl font-bold font-serif mb-6">Why Contact Us?</h2>
+              <h2 className="text-3xl font-bold font-serif mb-6">
+                Why Contact Us?
+              </h2>
               <div className="space-y-6">
                 {[
                   {
@@ -142,7 +165,11 @@ export default function ContactInfo({ id }: ContactInfoProps) {
                 ].map((item, index) => (
                   <div key={index} className="flex gap-4">
                     <div className="rounded-full bg-secondary/20 p-1 h-6 w-6 flex items-center justify-center mt-1">
-                      <svg className="h-4 w-4 text-secondary" fill="currentColor" viewBox="0 0 20 20">
+                      <svg
+                        className="h-4 w-4 text-secondary"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
                         <path
                           fillRule="evenodd"
                           d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -151,7 +178,9 @@ export default function ContactInfo({ id }: ContactInfoProps) {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg text-white mb-1">{item.title}</h3>
+                      <h3 className="font-semibold text-lg text-white mb-1">
+                        {item.title}
+                      </h3>
                       <p className="text-white/70">{item.description}</p>
                     </div>
                   </div>
@@ -159,14 +188,20 @@ export default function ContactInfo({ id }: ContactInfoProps) {
               </div>
 
               <div className="mt-8 pt-6 border-t border-white/10">
-                <p className="text-xl font-semibold">Call Now or Fill Out the Form to Get Started!</p>
-                <p className="text-2xl font-bold text-secondary mt-2">+[Your Contact Number]</p>
+                <p className="text-xl font-semibold">
+                  Call Now or Fill Out the Form to Get Started!
+                </p>
+                <a
+                href="tel:+923017700780">
+                <p className="text-2xl font-bold text-secondary mt-2">
+                  +[923436414257]
+                </p>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
-

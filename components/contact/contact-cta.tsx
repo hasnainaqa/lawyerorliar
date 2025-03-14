@@ -1,8 +1,8 @@
-import { ArrowRight, Phone } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { ArrowRight, Phone } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 interface ContactCtaProps {
-  id?: string
+  id?: string;
 }
 
 export default function ContactCta({ id }: ContactCtaProps) {
@@ -25,10 +25,12 @@ export default function ContactCta({ id }: ContactCtaProps) {
 
       <div className="container px-4 md:px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold font-serif mb-6">Ready to Get Expert Legal Assistance?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-serif mb-6">
+            Ready to Get Expert Legal Assistance?
+          </h2>
           <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Our team of experienced attorneys is ready to help you navigate your legal challenges. Contact us today to
-            schedule a consultation.
+            Our team of experienced attorneys is ready to help you navigate your
+            legal challenges. Contact us today to schedule a consultation.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -36,19 +38,27 @@ export default function ContactCta({ id }: ContactCtaProps) {
               size="lg"
               className="rounded-full gap-1 px-8 bg-secondary text-primary hover:bg-secondary/90 shadow-lg shadow-secondary/20 transition-all duration-300 hover:translate-y-[-2px] text-lg"
             >
-              Schedule Consultation <ArrowRight className="h-5 w-5 ml-1" />
+              <a
+                href="https://wa.me/923017700780"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Schedule Consultation</a> <ArrowRight className="h-5 w-5 ml-1" />
+              
             </Button>
 
             <div className="flex items-center justify-center gap-3 text-lg">
               <Phone className="h-6 w-6 text-secondary animate-pulse" />
               <span className="font-semibold">
-                Call us: <span className="text-secondary">+[Your Contact Number]</span>
+                <a href="https://wa.me/923017700780">
+                  Call us:{" "}
+                  <span className="text-secondary">+[Your Contact Number]</span>
+                </a>
               </span>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
-

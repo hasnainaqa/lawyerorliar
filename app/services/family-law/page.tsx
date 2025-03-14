@@ -129,7 +129,6 @@ export default function FamilyLawPage() {
       <PracticeAreaOverview title={practiceArea.title} overview={practiceArea.overview} />
       <PracticeAreaServices title={practiceArea.title} services={practiceArea.services} />
       <PracticeAreaProcess title={practiceArea.title} process={practiceArea.process} />
-      <PracticeAreaTeam title={practiceArea.title} teamMembers={practiceArea.teamMembers} />
       <PracticeAreaFaq title={practiceArea.title} faqs={practiceArea.faqs} />
       <PracticeAreaCta title={practiceArea.title} />
     </main>

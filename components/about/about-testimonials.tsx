@@ -12,8 +12,8 @@ const testimonials = [
   },
   {
     quote:
-      "I was facing a complex property dispute that seemed impossible to resolve. The legal team provided clear guidance and strong representation that led to a favorable settlement.",
-    author: "Sarah Johnson",
+      "I was facing a complex family dispute that seemed impossible to resolve. The legal team provided clear guidance and strong representation that led to a favorable settlement.",
+    author: "Ayesha Saddique",
     position: "Property Developer",
     image:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
@@ -22,7 +22,7 @@ const testimonials = [
   {
     quote:
       "Their taxation law expertise was invaluable during our audit. They handled everything professionally and achieved an outcome far better than we expected.",
-    author: "Michael Chen",
+    author: "Numan Raza",
     position: "Financial Director",
     image:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",

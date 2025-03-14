@@ -10,12 +10,12 @@ const expertiseAreas = [
   {
     icon: <FileText className="h-12 w-12" />,
     title: "Criminal Law",
-    description: "Bail, trials, appeals, and litigation.",
+    description: "Bail, trials, appeals and litigation.",
   },
   {
     icon: <Briefcase className="h-12 w-12" />,
     title: "Taxation Law",
-    description: "Income tax, sales tax, corporate tax.",
+    description: "Filer, Company Registration, NTN, Income tax, sales tax, corporate tax.",
   },
   {
     icon: <Building className="h-12 w-12" />,

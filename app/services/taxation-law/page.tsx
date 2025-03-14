@@ -4,7 +4,6 @@ import PracticeAreaServices from "@/components/practice-areas/practice-area-serv
 import PracticeAreaProcess from "@/components/practice-areas/practice-area-process"
 import PracticeAreaFaq from "@/components/practice-areas/practice-area-faq"
 import PracticeAreaCta from "@/components/practice-areas/practice-area-cta"
-import PracticeAreaTeam from "@/components/practice-areas/practice-area-team"
 
 export default function TaxationLawPage() {
   const practiceArea = {
@@ -133,7 +132,6 @@ export default function TaxationLawPage() {
       <PracticeAreaOverview title={practiceArea.title} overview={practiceArea.overview} />
       <PracticeAreaServices title={practiceArea.title} services={practiceArea.services} />
       <PracticeAreaProcess title={practiceArea.title} process={practiceArea.process} />
-      <PracticeAreaTeam title={practiceArea.title} teamMembers={practiceArea.teamMembers} />
       <PracticeAreaFaq title={practiceArea.title} faqs={practiceArea.faqs} />
       <PracticeAreaCta title={practiceArea.title} />
     </main>
