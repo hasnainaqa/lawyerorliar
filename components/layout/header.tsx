@@ -36,7 +36,11 @@ export default function Header() {
         <div className="flex items-center gap-2 font-bold text-xl">
           <Link href={"/"}>
           <div className={cn("flex items-center transition-colors", scrolled ? "text-primary" : "text-white")}>
-            <Scale className="h-7 w-7 mr-2" />
+            <img
+              src="favicon.svg"
+              alt="Lawyer or Liar Logo"
+              className="h-7 w-7 mr-2"
+            />
             <span className="font-serif">Lawyer or Liar</span>
           </div>
           </Link>
