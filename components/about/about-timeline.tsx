@@ -57,7 +57,7 @@ export default function AboutTimeline() {
                 description:
                   "Implemented advanced legal technology solutions to enhance client service and case management efficiency.",
                 image:
-                  "https://images.unsplash.com/photo-1581092921461-39b9d08ed889?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+                  "/dashbord.png",
               },
               {
                 year: "Present",

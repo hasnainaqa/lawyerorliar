@@ -58,7 +58,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "corporate-law",
     "family-law",
     "employment-law",
-    "intellectual-property",
     "real-estate",
     "immigration-visa-law",
     "alternative-dispute-resolution",
