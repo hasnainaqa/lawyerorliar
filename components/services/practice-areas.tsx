@@ -124,7 +124,7 @@ const practiceAreas = [
     category: "Other",
   },
   {
-    id: "immigration-law",
+    id: "immigration-vise-law",
     icon: <Plane className="h-12 w-12" />,
     title: "Immigration & Visa Law",
     description: "Expert advice and legal solutions for immigration matters.",
@@ -140,7 +140,7 @@ const practiceAreas = [
     category: "Other",
   },
   {
-    id: "adr",
+    id: "alternative-dispute-resolution",
     icon: <MessageSquare className="h-12 w-12" />,
     title: "Alternative Dispute Resolution",
     description: "Helping resolve conflicts efficiently outside of court.",
