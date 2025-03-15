@@ -124,7 +124,7 @@ const practiceAreas = [
     category: "Other",
   },
   {
-    id: "immigration-vise-law",
+    id: "immigration-visa-law",
     icon: <Plane className="h-12 w-12" />,
     title: "Immigration & Visa Law",
     description: "Expert advice and legal solutions for immigration matters.",
