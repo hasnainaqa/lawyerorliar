@@ -42,7 +42,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`scroll-smooth ${inter.variable} ${playfair.variable}`}>
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning={true}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <div className="flex min-h-screen flex-col bg-background">
             <Header />
@@ -55,6 +55,3 @@ export default function RootLayout({
   )
 }
 
-
-
-import './globals.css'
